@@ -1,0 +1,15 @@
+settings.py - Local de configuração geral do projeto.
+
+core/models.py - tables do banco de dados
+makemigrations & migrate sempre que mexer em models
+
+core/views.py - Lógica do sistema, o que deve acontecer quando o site faz um request, get, post...
+
+core/urls.py - São os caminhos disponíveis do aplicativo
+library/urls.py - São os caminhos de todos os aplicativos disponíveis
+
+core/forms.py - Formulários dos templates
+(No html é obrigatório usar '{% csrf_token %}')
+
+/templates - templates compartilhados
+core/templates - templates especificos dos aplicativos

@@ -1,0 +1,28 @@
+# ambiente virtual
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# banco local
+db.sqlite3
+
+# variáveis de ambiente
+.env
+
+# vscode
+.vscode/
+
+# arquivos de sistema
+.DS_Store
+
+# logs
+*.log
+
+# migrations compiladas
+*/migrations/__pycache__/
